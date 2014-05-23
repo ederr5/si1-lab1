@@ -1,0 +1,54 @@
+body{
+background-color:#f8f8f8;
+height:2px;
+}
+
+td{
+    
+   height:50px;
+    
+   border:1px dashed gray;
+
+    }
+
+
+table{
+    
+   border:1px solid black;
+    
+}
+
+a{
+    
+   color:#cc0000;
+    
+   text-decoration:none;
+    
+}
+
+h3{
+   font-family:Forte;
+   color:#576d94;
+   }
+
+img{
+    
+   border:3px solid #909090;
+    
+}
+div{
+    
+   height:50px;
+    
+   width:120px;
+    
+   border-color:#6495ed;
+    
+   background-color:#909090;
+    
+   border-radius:5px;
+  
+   margin:auto;
+    
+   text-align:center;  
+}

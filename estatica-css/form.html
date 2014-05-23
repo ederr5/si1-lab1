@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+    <title>Sistemas de Informação I</title>
+  </head>
+ <body>
+   <center>
+   <h1>Formulário de cadastramento da disciplina SI 1</h1>
+   <hr width=30% noshade>
+   <br>
+   <hr size=2 width=90%>
+   <br>
+
+   <form name="cadastroSI" action="thanks.html" method="post">
+<TABLE BORDER=0>
+<TR>
+	<TD>Nome :</TD>
+	<TD>
+	<INPUT type=text name="nome">
+	</TD>
+</TR>
+
+<TR>
+	<TD>Sobrenome :</TD>
+	<TD>
+	<INPUT type=text name="Sobrenome">
+	</TD>
+</TR>
+
+<TR>
+	<TD>Matricula :</TD>
+	<TD>
+	<INPUT type=text name="matricula">
+	</TD>
+</TR>
+
+<TR>
+	<TD>Email :</TD>
+	<TD>
+	<INPUT type=text name="email">
+	</TD>
+</TR>
+
+
+<TR>
+	<TD>Sexo :</TD>
+	<TD>
+	Masculino: <INPUT type=radio name="sexo" value="M">
+	<br>
+	Feminino : <INPUT type=radio name="sexo" value="F">
+	</TD>
+</TR>
+
+<TR>
+	<TD>Período :</TD>
+	<TD>
+	<SELECT name="periodo">
+		<OPTION VALUE="1º Período">1º Período</OPTION>
+		<OPTION VALUE="2º Período">2º Período</OPTION>
+		<OPTION VALUE="3º Período">3º Período</OPTION>
+		<OPTION VALUE="4º Período">4º Período</OPTION>
+		<OPTION VALUE="5º Período">5º Período</OPTION>
+		<OPTION VALUE="6º Período">6º Período</OPTION>
+		<OPTION VALUE="7º Período">7º Período</OPTION>
+		<OPTION VALUE="8º Período">8º Período</OPTION>
+		<OPTION VALUE="9º Período">9º Período</OPTION>
+		<OPTION VALUE=" > 9º"> > 9º</OPTION>
+	</SELECT>
+	</TD>
+</TR>
+<TR>
+	<TD>Comentários :</TD>
+	<TD>
+	<TEXTAREA rows="3" name="comentarios">
+	Insira alguma pergunta ou comentário que deseja fazer sobre a disciplina</TEXTAREA>
+	</TD>
+</TR>
+
+<TR>
+	<TD>O que lhe fez optar pela disciplina ?</TD>
+	<TD>
+	<INPUT type=checkbox name="opcaoA" value="A"> As informações desse site.
+	<br>
+	<INPUT type=checkbox name="opcaoB" value="B"> Conselhos de amigos.
+	</TD>
+	<TD>
+	<INPUT type=checkbox name="opcaoC" value="C"> A disciplina está alocada para meu atual periodo.
+	<br>
+	<INPUT type=checkbox name="opcaoD" value="D"> Nenhuma das alternativas.
+	</TD>
+</TR>
+
+<TR>
+
+	<TD>
+	</TD>
+
+	<TD COLSPAN=2>
+	<br>
+	<br>
+	<INPUT type="submit" value="Enviar">
+	</TD>
+</TR>
+</TABLE>
+<br>
+<hr size=2 width=90%>
+
+  
+   </form>
+  </font>
+ </body>
+</html>
