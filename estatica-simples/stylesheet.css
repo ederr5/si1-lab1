@@ -1,0 +1,50 @@
+body{
+  background-color: #082767;
+  height:2px;
+  text-color:#0e0e0e;
+  font-family:Calibri;
+  text-align:center;
+      }
+
+
+td{
+    
+   height:50px;
+    
+   border:1px dashed gray;
+
+    }
+
+
+table{
+    
+   border:1px solid black;
+    
+}
+
+a{
+    
+   color:#cc0000;
+    
+   text-decoration:none;
+
+  
+  
+}
+
+h3{
+   font-family:Arial;
+   color:#576d94;
+   }
+h1{
+text-align:center;
+}
+
+img{
+    
+   border:3px solid #909090;
+    
+}
+dd{
+font-family:Verdana
+}
